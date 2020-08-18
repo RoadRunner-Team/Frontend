@@ -1,0 +1,105 @@
+.help {
+  font-size: 11px;
+  color: #468ee5;
+}
+.detail-title {
+  font-size: 14px;
+  color: #8a96b6;
+  margin-bottom: 20px;
+}
+
+.limit-line-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.limit-line-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.limit-line-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.float-r {
+  float: right;
+}
+.float-l {
+  float: left;
+}
+
+.p-info {
+  font-size: 13px;
+  color: #9e9e9e;
+  margin-left: -8px;
+  span {
+    margin: 0 4px 0 8px;
+  }
+}
+
+@for $space from 0 through 50 {
+  .m-t-#{$space} {
+    margin-top: #{$space}px !important;
+  }
+  .m-r-#{$space} {
+    margin-right: #{$space}px !important;
+  }
+  .m-b-#{$space} {
+    margin-bottom: #{$space}px !important;
+  }
+  .m-l-#{$space} {
+    margin-left: #{$space}px !important;
+  }
+  .m-h-#{$space} {
+    margin: 0 #{$space}px !important;
+  }
+  .m-v-#{$space} {
+    margin: #{$space}px 0 !important;
+  }
+  .m-#{$space} {
+    margin: #{$space}px !important;
+  }
+
+  .p-t-#{$space} {
+    padding-top: #{$space}px !important;
+  }
+  .p-r-#{$space} {
+    padding-right: #{$space}px !important;
+  }
+  .p-b-#{$space} {
+    padding-bottom: #{$space}px !important;
+  }
+  .p-l-#{$space} {
+    padding-left: #{$space}px !important;
+  }
+  .p-h-#{$space} {
+    margin: 0 #{$space}px !important;
+  }
+  .p-v-#{$space} {
+    margin: #{$space}px 0 !important;
+  }
+  .p-#{$space} {
+    padding: #{$space}px !important;
+  }
+}
